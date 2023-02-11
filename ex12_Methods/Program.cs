@@ -15,7 +15,7 @@ string Replace(string text, char oldValue, char newValue)
     int lenght = text.Length;
     for (int i = 0; i < lenght; i++)
     {
-        if(text[i] == oldValue) result = result + $"{newValue}";
+        if (text[i] == oldValue) result = result + $"{newValue}";
         else result = result + $"{text[i]}";
     }
 
