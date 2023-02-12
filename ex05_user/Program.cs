@@ -12,4 +12,4 @@ else
     Console.Write("Что это за имя такое дурацкое? ");
     Console.Write(username);
     Console.Write("...");
-}
+} 
